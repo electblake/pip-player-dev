@@ -23,16 +23,23 @@ The script builds and runs Android lint before copying the APK. Gradle downloads
 
 ## Install with Downloader by AFTVnews
 
-1. Upload `dist/pip-player-dev.apk` to your file host and obtain a direct public HTTPS download URL. The address must download the APK without a sign-in page.
-2. Install [Downloader by AFTVnews](https://www.aftvnews.com/downloader/) from Google Play on the Google TV.
-3. Open Downloader, enter your APK download URL and select **Go**.
+Download: [PiP Player Dev 0.1.0 APK](https://github.com/electblake/pip-player-dev/releases/download/v0.1.0/pip-player-dev.apk) · [SHA-256 checksum](https://github.com/electblake/pip-player-dev/releases/download/v0.1.0/pip-player-dev.apk.sha256).
+
+1. Install [Downloader by AFTVnews](https://www.aftvnews.com/downloader/) from Google Play on the Google TV.
+2. Open Downloader and enter this direct release download URL:
+
+   ```text
+   https://github.com/electblake/pip-player-dev/releases/download/v0.1.0/pip-player-dev.apk
+   ```
+
+3. Select **Go** to download the APK.
 4. When Android requests permission to install apps from this source, open **Settings**, enable **Install unknown apps** for Downloader, then return to installation. On Google TV devices that hide this setting, enable Developer options by selecting **Settings → System → About → Android TV OS build** seven times first.
 5. Select **Install**, then **Open**. The launcher name is **PiP Player Dev**.
 6. Select **Allow display over other apps** and grant the permission in Android settings. Return to the player.
 7. Select **Start player** to start the HTTP server. You may leave the stream URL empty and choose a video from APiP Remote. In the remote, open **Server Manager → Manual**, enter the TV's displayed `IP:8080`, add and select that server, then choose a source from **Open Stream Library**. Both devices must be on the same LAN. No discovery is required.
 8. Press **Home** on the TV; the stream remains visible. Use the remote to change position, size or volume, or switch between Fullscreen and PiP. **Close App** stops the server and player. Reopen the TV app and select **Start player** to connect again.
 
-For a numeric Downloader code, submit your hosted APK URL to the [AFTVnews URL Shortener](https://go.aftvnews.com/). Enter the resulting code in Downloader. **AFTVnews shortens URLs; it does not host your APK.** No APK host or Downloader code has been configured for this project.
+For a numeric Downloader code, submit the release download URL above to the [AFTVnews URL Shortener](https://go.aftvnews.com/). Enter the resulting code in Downloader. The APK is hosted on GitHub Releases. No Downloader code has been configured for this project.
 
 Installation flow reference: [SmartTube installation](https://github.com/yuliskov/SmartTube#installation). Use this player's own APK URL/code, not SmartTube's.
 
