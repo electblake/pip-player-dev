@@ -6,6 +6,13 @@ This project contains only the TV player/server. Its core HTTP protocol was veri
 
 Supported remote controls: stream selection, six positions, size, independent volume, fullscreen, PiP and Close App. The remote's separate Media, Clock and Timer tools are outside this minimal video player's scope.
 
+## APiP Remote
+
+[![Android — Google Play](https://img.shields.io/badge/Android-Google_Play-414141?logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=com.asharelink.apip_companion)
+[![iOS — App Store](https://img.shields.io/badge/iOS-App_Store-0D96F6?logo=appstore&logoColor=white)](https://apps.apple.com/us/app/apip-remote-client/id6757357196)
+
+Android remote compatibility is verified; iOS verification is pending.
+
 ## Build
 
 Requirements: PowerShell 7.4+, JDK 21, Android SDK platform 36, build tools 36.0.0 and platform tools. Set `JAVA_HOME` and `ANDROID_HOME` to their installation directories. Accept the Android SDK licences with `sdkmanager --licenses`.
